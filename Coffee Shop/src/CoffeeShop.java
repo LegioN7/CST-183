@@ -260,35 +260,3 @@ public class CoffeeShop {
 
     }
 }
-
-/*
-Original Discount Calculation before I moved it to a method
-
-        if (javaCost < 20) {
-        discountTotal = (javaCost * .02);
-        javaCost = javaCost - discountTotal;
-        System.out.println("Discount %: 02%");
-        System.out.println("Java cost: " + javaCost);
-
-        } else if (javaCost >= 20.0 && javaCost < 40) {
-        discountTotal = (javaCost * .05);
-        javaCost = javaCost - discountTotal;
-        System.out.println("Discount %: 05%");
-        System.out.println("Java cost: " + javaCost);
-        } else if (javaCost >= 40 && javaCost <= 60) {
-        discountTotal = (javaCost * .08);
-        javaCost = javaCost - discountTotal;
-        System.out.println("Discount %: 08%");
-        System.out.println("Java cost: " + javaCost);
-        } else if (javaCost > 60 && javaCost <= 75) {
-        discountTotal = (javaCost * .12);
-        javaCost = javaCost - discountTotal;
-        System.out.println("Discount %: 12%");
-        System.out.println("Java cost: " + javaCost);
-        } else if (javaCost > 75) {
-        discountTotal = (javaCost * .2);
-        javaCost = javaCost - discountTotal;
-        System.out.println("Discount %: 20%");
-        System.out.println("Java cost: " + javaCost);
-        }
-*/
