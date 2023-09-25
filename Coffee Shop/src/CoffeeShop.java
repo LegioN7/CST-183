@@ -53,7 +53,7 @@ Finally, a programming note for String usage:
 
 import javax.swing.*;
 
-public class Main {
+public class CoffeeShop {
 
     // Cost of Java
     static final double coffeeCost = 1.75;
